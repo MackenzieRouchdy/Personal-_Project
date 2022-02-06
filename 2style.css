@@ -1,0 +1,1717 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  overflow-wrap: break-word;
+}
+
+p a {
+  text-decoration: underline;
+}
+
+p a:hover {
+  color: blue;
+}
+
+#header_logo {
+  position: absolute;
+  height: 43px;
+  width: 43px;
+  margin-top: -30px;
+  margin-bottom: 0px;
+}
+
+#test a {
+  color: orange;
+  position: absolute;
+  padding: 500px;
+}
+
+@media screen and (max-width: 1024px) and (min-width: 768px) {
+  * {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    box-sizing: border-box;
+  }
+
+  .header {
+    background-color: black;
+    height: 45px;
+    width: 120vw;
+    position: fixed;
+    z-index: 999999;
+  }
+
+  .header ul {
+  }
+
+  .header ul li {
+    display: inline-flex;
+  }
+
+  .header ul li a {
+    color: white;
+    text-decoration: none;
+    margin-right: 4.3vw;
+    margin-left: 4.3vw;
+    font-size: 1vw;
+    font-family: "oswald";
+    margin-top: 2vh;
+    padding-left: 12px;
+    padding-right: 12px;
+    text-align: center;
+  }
+
+  #header_logo {
+    position: absolute;
+    height: 43px;
+    width: 43px;
+    margin-left: -20px;
+    margin-top: -3.1vh;
+  }
+
+  .header ul li a:hover {
+    background-color: white;
+    color: black;
+    border-radius: 10px;
+  }
+
+  .intro {
+  }
+
+  p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+
+  #fact_fake_image {
+    width: 90%;
+    height: 90%;
+    margin-left: 50px;
+    border-radius: 20px;
+  }
+
+  #welcome_title {
+    margin-left: 50px;
+    margin-top: 30px;
+    border-bottom: 1px solid black;
+    width: 30%;
+    font-family: "oswald";
+    font-size: 5rem;
+    animation: color-change 30s infinite;
+  }
+
+  @keyframes color-change {
+    0% {
+      color: black;
+    }
+    25% {
+      color: blue;
+    }
+    50% {
+      color: orange;
+    }
+    75% {
+      color: brown;
+    }
+    100% {
+      color: black;
+    }
+  }
+
+  #Welcome_text {
+    margin-left: 50px;
+    margin-top: 30px;
+    font-size: 14px;
+    margin-right: 400px;
+    text-indent: 45px;
+    color: black;
+  }
+
+  #paranoia_img {
+    float: right;
+    margin-top: -20%;
+    margin-right: 50px;
+  }
+
+  #what_is_a_conspiracy_theory_title {
+    margin-left: 50px;
+    margin-top: 30px;
+    font-family: "oswald";
+  }
+
+  #what_is_a_conspiracy_theory_text {
+    margin-left: 50px;
+    margin-top: 15px;
+    margin-right: 150px;
+    color: black;
+    font-family: 14px;
+    text-indent: 45px;
+    font-size: 15px;
+  }
+
+  #conspiracy_theories {
+  }
+
+  #conspiracy_theoires_title {
+    margin-left: 50px;
+    margin-top: 30px;
+    font-family: oswald;
+  }
+
+  #september_11_attacks {
+  }
+
+  #september_11_attacks_title {
+    margin-left: 50px;
+    margin-top: 30px;
+    font-family: oswald;
+  }
+
+  #september_11_attacks_text {
+    margin-left: 50px;
+    font-size: 15px;
+    margin-right: 380px;
+    margin-top: 30px;
+    text-indent: 45px;
+  }
+
+  #september_11_attacks_img {
+    border-radius: 30px;
+    width: 30%;
+    height: auto;
+    margin-right: 30px;
+    float: right;
+    margin-top: -130px;
+    filter: drop-shadow(15px 10px 40px black);
+  }
+
+  #september_11_attacks_img:hover {
+    transform: translateY(-7%);
+    transition: 0.5s ease-in-out;
+  }
+
+  #us_moon_landing {
+  }
+
+  #us_moon_landing_title {
+    margin-top: 30px;
+    margin-left: 50px;
+    font-family: oswald;
+  }
+
+  #us_moon_landing_text {
+    margin-left: 430px;
+    margin-right: 60px;
+    margin-top: 100px;
+    text-indent: 45px;
+    font-size: 15px;
+    color: black;
+  }
+
+  #us_moon_landing_img {
+    width: 30%;
+    height: auto;
+    border-radius: 30px;
+    margin-top: -150px;
+    margin-left: 50px;
+    filter: drop-shadow(15px 10px 40px black);
+  }
+
+  #us_moon_landing_img:hover {
+    transform: translateY(-7%);
+    transition: 0.5s ease-in-out;
+  }
+
+  #Illuminati {
+  }
+
+  #Illuminati_title {
+    margin-left: 50px;
+    margin-top: 30px;
+    font-family: oswald;
+  }
+
+  #Illuminati_text {
+    margin-left: 50px;
+    font-size: 15px;
+    margin-right: 380px;
+    margin-top: 30px;
+    text-indent: 45px;
+  }
+
+  #illuminati_img {
+    border-radius: 30px;
+    width: 20%;
+    height: auto;
+    margin-right: 100px;
+    float: right;
+    margin-top: -160px;
+    filter: drop-shadow(15px 10px 40px black);
+  }
+
+  #illuminati_img:hover {
+    transform: translateY(-7%);
+    transition: 0.5s ease-in-out;
+  }
+
+  #area_51 {
+  }
+
+  #area_51_title {
+    margin-top: 30px;
+    margin-left: 50px;
+    font-family: oswald;
+  }
+
+  #area_51_text {
+    margin-left: 430px;
+    margin-right: 60px;
+    margin-top: 100px;
+    text-indent: 45px;
+    font-size: 15px;
+    color: black;
+  }
+
+  #area_51_img {
+    width: 30%;
+    height: auto;
+    border-radius: 30px;
+    margin-top: -150px;
+    margin-left: 50px;
+    filter: drop-shadow(15px 10px 40px black);
+  }
+
+  #area_51_img:hover {
+    transform: translateY(-7%);
+    transition: 0.5s ease-in-out;
+  }
+
+  .db_cooper {
+  }
+
+  #db_cooper_title {
+    margin-left: 50px;
+    margin-top: 30px;
+    font-family: oswald;
+  }
+
+  #db_cooper_text {
+    margin-left: 50px;
+    font-size: 15px;
+    margin-right: 380px;
+    margin-top: 30px;
+    text-indent: 45px;
+  }
+
+  #db_cooper_img {
+    border-radius: 30px;
+    width: 20%;
+    height: auto;
+    margin-right: 100px;
+    float: right;
+    margin-top: -160px;
+    filter: drop-shadow(15px 10px 40px black);
+  }
+
+  #db_cooper_img:hover {
+    transform: translateY(-7%);
+    transition: 0.5s ease-in-out;
+  }
+
+  .jfk_assasination {
+  }
+
+  #jfk_title {
+    margin-top: 30px;
+    margin-left: 50px;
+    font-family: oswald;
+  }
+
+  #jfk_assasination_text {
+    margin-left: 430px;
+    margin-right: 60px;
+    margin-top: 100px;
+    text-indent: 45px;
+    font-size: 15px;
+    color: black;
+  }
+
+  #jfk_img {
+    width: 30%;
+    height: auto;
+    border-radius: 30px;
+    margin-top: -150px;
+    margin-left: 50px;
+    filter: drop-shadow(15px 10px 40px black);
+  }
+
+  #jfk_img {
+    transform: translateY(-7%);
+    transition: 0.5s ease-in-out;
+  }
+
+  .zodiac_killer {
+  }
+
+  #zodiac_title {
+    margin-left: 50px;
+    margin-top: 30px;
+    font-family: oswald;
+  }
+
+  #zodiac_text {
+    margin-left: 50px;
+    font-size: 15px;
+    margin-right: 380px;
+    margin-top: 30px;
+    text-indent: 45px;
+  }
+
+  #zodiac_img {
+    border-radius: 30px;
+    width: 20%;
+    height: auto;
+    margin-right: 100px;
+    float: right;
+    margin-top: -160px;
+    filter: drop-shadow(15px 10px 40px black);
+  }
+
+  #zodiac_img:hover {
+    transform: translateY(-7%);
+    transition: 0.5s ease-in-out;
+  }
+
+  .hitler_death {
+  }
+
+  #Hitler_title {
+    margin-top: 30px;
+    margin-left: 50px;
+    font-family: oswald;
+  }
+
+  #hitler_text {
+    margin-left: 430px;
+    margin-right: 60px;
+    margin-top: 100px;
+
+    text-indent: 45px;
+    font-size: 15px;
+    color: black;
+  }
+
+  #hitler_img {
+    width: 20%;
+    height: auto;
+    border-radius: 30px;
+    margin-top: -150px;
+    margin-left: 70px;
+    filter: drop-shadow(15px 10px 40px black);
+  }
+
+  #hitler_img:hover {
+    transform: translateY(-7%);
+    transition: 0.5s ease-in-out;
+  }
+
+  .government_cover_up {
+  }
+
+  #government_title {
+    margin-left: 50px;
+    margin-top: 30px;
+    font-family: oswald;
+  }
+
+  #government_text {
+    margin-left: 50px;
+
+    font-size: 15px;
+    margin-right: 380px;
+    margin-top: 30px;
+    text-indent: 45px;
+  }
+
+  #government_img {
+    border-radius: 30px;
+    width: 20%;
+    height: auto;
+    margin-right: 100px;
+    float: right;
+    margin-top: -160px;
+    filter: drop-shadow(15px 10px 40px black);
+  }
+
+  #government_img {
+    transform: translateY(-7%);
+    transition: 0.5s ease-in-out;
+  }
+
+  .riddle {
+  }
+
+  #riddle_text {
+    float: right;
+    margin-right: 500px;
+    margin-top: 100px;
+    text-align: center;
+  }
+
+  #riddle_img {
+    float: right;
+    filter: blur(8px);
+    margin-top: -200px;
+    margin-right: 50px;
+  }
+
+  #riddle_img:hover {
+    filter: blur(0px);
+  }
+
+  * {
+    text-decoration: none;
+  }
+
+  #top_button {
+    position: absolute;
+    margin-top: 430px;
+    margin-left: 45%;
+    margin-right: 45%;
+    background-color: yellow;
+    border-radius: 10px;
+    padding: 5px;
+    color: black;
+    text-decoration: none;
+  }
+
+  #top_button p {
+    color: black;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: oswald;
+  }
+
+  .footer {
+    background-color: black;
+    margin-top: 500px;
+    height: 80px;
+  }
+
+  .footer ul {
+    text-align: center;
+  }
+
+  .footer ul li {
+    display: inline-flex;
+    color: white;
+    justify-content: space-between;
+    padding-left: 2vw;
+    padding-right: 2vw;
+    font-family: cursive;
+    font-size: 1vw;
+    margin-bottom: 1vh;
+  }
+
+  .footer ul li a {
+    text-decoration: none;
+    color: white;
+  }
+
+  #footer_logo {
+    transform: translateY(25%);
+    height: 50px;
+    width: 50px;
+  }
+}
+
+@media screen and (max-width: 1440px) and (min-width: 1025px) {
+  * {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    box-sizing: border-box;
+  }
+
+  .header {
+    background-color: black;
+    height: 45px;
+    width: 144vw;
+    max-width: inherit;
+    position: fixed;
+    z-index: 99999;
+  }
+
+  .header ul {
+  }
+
+  .header ul li {
+    display: inline-flex;
+  }
+
+  .header ul li a {
+    color: white;
+    text-decoration: none;
+    margin-right: 1.4vw;
+    margin-left: 1.4vw;
+    font-size: 1vw;
+    font-family: "oswald";
+    margin-top: 10px;
+    padding-left: 4.3vw;
+    padding-right: 4.3vw;
+    text-align: center;
+  }
+
+  #header_logo {
+    position: absolute;
+    height: 43px;
+    width: 43px;
+    margin-left: -20px;
+    margin-bottom: 5px;
+  }
+
+  .header ul li a:hover {
+    background-color: white;
+    color: black;
+    border-radius: 10px;
+  }
+
+  p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+
+  h2 {
+    font-size: 28px;
+  }
+
+  h3 {
+    font-size: 21px;
+  }
+
+  .intro {
+  }
+
+  #fact_fake_image {
+    width: 90%;
+    height: 90%;
+    margin-left: 50px;
+    border-radius: 20px;
+  }
+
+  #welcome_title {
+    margin-left: 50px;
+    margin-top: 30px;
+    border-bottom: 1px solid black;
+    width: 30%;
+    font-family: "oswald";
+    font-size: 5rem;
+    animation: color-change 30s infinite;
+  }
+
+  @keyframes color-change {
+    0% {
+      color: black;
+    }
+    25% {
+      color: blue;
+    }
+    50% {
+      color: orange;
+    }
+    75% {
+      color: brown;
+    }
+    100% {
+      color: black;
+    }
+  }
+
+  #Welcome_text {
+    margin-left: 50px;
+    margin-top: 30px;
+    font-size: 16px;
+    margin-right: 400px;
+    text-indent: 45px;
+    color: black;
+  }
+
+  #paranoia_img {
+    float: right;
+    margin-top: -15%;
+    margin-right: 50px;
+  }
+
+  #what_is_a_conspiracy_theory_title {
+    margin-left: 50px;
+    margin-top: 30px;
+    font-family: "oswald";
+  }
+
+  #what_is_a_conspiracy_theory_text {
+    margin-left: 50px;
+    margin-top: 15px;
+    margin-right: 150px;
+    color: black;
+    text-indent: 45px;
+    font-size: 16px;
+  }
+
+  #conspiracy_theories {
+  }
+
+  #conspiracy_theoires_title {
+    margin-left: 50px;
+    margin-top: 30px;
+    font-family: oswald;
+  }
+
+  #september_11_attacks {
+  }
+
+  #september_11_attacks_title {
+    margin-left: 50px;
+    margin-top: 30px;
+    font-family: oswald;
+  }
+
+  #september_11_attacks_text {
+    margin-left: 50px;
+    font-size: 15px;
+    margin-right: 520px;
+    margin-top: 30px;
+    text-indent: 45px;
+  }
+
+  #september_11_attacks_img {
+    border-radius: 30px;
+    width: 30%;
+    height: auto;
+    margin-right: 30px;
+    float: right;
+    margin-top: -130px;
+    box-shadow: 1px 1px black;
+    filter: drop-shadow(15px 10px 40px black);
+  }
+
+  #september_11_attacks_img:hover {
+    transform: translateY(-7%);
+    transition: 0.5s ease-in-out;
+  }
+
+  #us_moon_landing {
+  }
+
+  #us_moon_landing_title {
+    margin-top: 30px;
+    margin-left: 50px;
+    font-family: oswald;
+  }
+
+  #us_moon_landing_text {
+    margin-left: 530px;
+    margin-right: 60px;
+    margin-top: 150px;
+    text-indent: 45px;
+    font-size: 15px;
+    color: black;
+  }
+
+  #us_moon_landing_img {
+    width: 30%;
+    height: auto;
+    border-radius: 30px;
+    margin-top: -150px;
+    margin-left: 50px;
+    filter: drop-shadow(15px 10px 40px black);
+  }
+
+  #us_moon_landing_img:hover {
+    transform: translateY(-7%);
+    transition: 0.5s ease-in-out;
+  }
+
+  #Illuminati {
+  }
+
+  #Illuminati_title {
+    margin-left: 50px;
+    margin-top: 30px;
+    font-family: oswald;
+  }
+
+  #Illuminati_text {
+    margin-left: 50px;
+    font-size: 15px;
+    margin-right: 500px;
+    margin-top: 30px;
+    text-indent: 45px;
+  }
+
+  #illuminati_img {
+    border-radius: 30px;
+    width: 20%;
+    height: auto;
+    margin-right: 100px;
+    float: right;
+    margin-top: -250px;
+    filter: drop-shadow(15px 10px 40px black);
+  }
+
+  #illuminati_img:hover {
+    transform: translateY(-7%);
+    transition: 0.5s ease-in-out;
+  }
+
+  #area_51 {
+  }
+
+  #area_51_title {
+    margin-top: 70px;
+    margin-left: 50px;
+    font-family: oswald;
+  }
+
+  #area_51_text {
+    margin-left: 530px;
+    margin-right: 60px;
+    margin-top: 100px;
+    text-indent: 45px;
+    font-size: 15px;
+    color: black;
+    margin-top: 150px;
+  }
+
+  #area_51_img {
+    width: 30%;
+    height: auto;
+    border-radius: 30px;
+    margin-top: -190px;
+    margin-left: 50px;
+    filter: drop-shadow(15px 10px 40px black);
+  }
+
+  #area_51_img:hover {
+    transform: translateY(-7%);
+    transition: 0.5s ease-in-out;
+  }
+
+  .db_cooper {
+  }
+
+  #db_cooper_title {
+    margin-left: 50px;
+    margin-top: 30px;
+    font-family: oswald;
+  }
+
+  #db_cooper_text {
+    margin-left: 50px;
+    font-size: 15px;
+    margin-right: 550px;
+    margin-top: 30px;
+    text-indent: 45px;
+  }
+
+  #db_cooper_img {
+    border-radius: 30px;
+    width: 20%;
+    height: auto;
+    margin-right: 150px;
+    float: right;
+    margin-top: -200px;
+    filter: drop-shadow(15px 10px 40px black);
+  }
+
+  #db_cooper_img:hover {
+    transform: translateY(-7%);
+    transition: 0.5s ease-in-out;
+  }
+
+  .jfk_assasination {
+  }
+
+  #jfk_title {
+    margin-top: 30px;
+    margin-left: 50px;
+    font-family: oswald;
+  }
+
+  #jfk_assasination_text {
+    margin-left: 530px;
+    margin-right: 60px;
+    margin-top: 250px;
+    text-indent: 45px;
+    font-size: 15px;
+    color: black;
+  }
+
+  #jfk_img {
+    width: 30%;
+    height: auto;
+    border-radius: 30px;
+    margin-top: -230px;
+    margin-left: 50px;
+    filter: drop-shadow(15px 10px 40px black);
+  }
+
+  #jfk_img:hover {
+    transform: translateY(-7%);
+    transition: 0.5s ease-in-out;
+  }
+
+  .zodiac_killer {
+  }
+
+  #zodiac_title {
+    margin-left: 50px;
+    margin-top: 30px;
+    font-family: oswald;
+  }
+
+  #zodiac_text {
+    margin-left: 50px;
+    font-size: 15px;
+    margin-right: 580px;
+    margin-top: 30px;
+    text-indent: 45px;
+  }
+
+  #zodiac_img {
+    border-radius: 30px;
+    width: 20%;
+    height: auto;
+    margin-right: 150px;
+    float: right;
+    margin-top: -160px;
+    filter: drop-shadow(15px 10px 40px black);
+  }
+
+  #zodiac_img:hover {
+    transform: translateY(-7%);
+    transition: 0.5s ease-in-out;
+  }
+
+  .hitler_death {
+  }
+
+  #Hitler_title {
+    margin-top: 30px;
+    margin-left: 50px;
+    font-family: oswald;
+  }
+
+  #hitler_text {
+    margin-left: 430px;
+    margin-right: 60px;
+    margin-top: 150px;
+    text-indent: 45px;
+    font-size: 15px;
+    color: black;
+  }
+
+  #hitler_img {
+    width: 20%;
+    height: auto;
+    border-radius: 30px;
+    margin-top: -150px;
+    margin-left: 70px;
+    filter: drop-shadow(15px 10px 40px black);
+  }
+
+  #hitler_img:hover {
+    transform: translateY(-7%);
+    transition: 0.5s ease-in-out;
+  }
+
+  .government_cover_up {
+  }
+
+  #government_title {
+    margin-left: 50px;
+    margin-top: 30px;
+    font-family: oswald;
+  }
+
+  #government_text {
+    margin-left: 50px;
+    font-size: 15px;
+    margin-right: 480px;
+    margin-top: 30px;
+    text-indent: 45px;
+  }
+
+  #government_img {
+    border-radius: 30px;
+    width: 20%;
+    height: auto;
+    margin-right: 100px;
+    float: right;
+    margin-top: -160px;
+    filter: drop-shadow(15px 10px 40px black);
+  }
+
+  #government_img:hover {
+    transform: translateY(-7%);
+    transition: 0.5s ease-in-out;
+  }
+
+  .riddle {
+  }
+
+  #riddle_text {
+    float: right;
+    margin-right: 500px;
+    margin-top: 100px;
+    text-align: center;
+  }
+
+  #riddle_img {
+    float: right;
+    filter: blur(8px);
+    margin-top: -200px;
+    margin-right: 100px;
+  }
+
+  #riddle_img:hover {
+    filter: blur(0px);
+  }
+
+  * {
+    text-decoration: none;
+  }
+
+  #top_button {
+    position: absolute;
+    margin-top: 430px;
+    margin-left: 45%;
+    margin-right: 45%;
+    background-color: yellow;
+    border-radius: 10px;
+    padding: 5px;
+    color: black;
+    text-decoration: none;
+  }
+
+  #top_button p {
+    color: black;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: oswald;
+  }
+
+  .footer {
+    background-color: black;
+    margin-top: 500px;
+    height: 80px;
+  }
+
+  .footer ul {
+    text-align: center;
+  }
+
+  .footer ul li {
+    display: inline-flex;
+    color: white;
+    justify-content: space-between;
+    padding-left: 2vw;
+    padding-right: 2vw;
+    font-family: cursive;
+    font-size: 0.8vw;
+    margin-bottom: 1vh;
+  }
+
+  .footer ul li a {
+    text-decoration: none;
+    color: white;
+  }
+
+  #footer_logo {
+    transform: translateY(25%);
+    height: 50px;
+    width: 50px;
+  }
+}
+
+@media screen and (min-width: 1441px) {
+  * {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    box-sizing: border-box;
+  }
+
+  .header {
+    background-color: black;
+    height: 45px;
+    width: 100vw;
+    position: fixed;
+    z-index: 99999;
+  }
+
+  .header ul {
+  }
+
+  .header ul li {
+    display: inline-flex;
+  }
+
+  .header ul li a {
+    color: white;
+    text-decoration: none;
+    margin-right: 1.4vw;
+    margin-left: 1.4vw;
+    font-size: 1vw;
+    font-family: "oswald";
+    margin-top: 10px;
+    padding-left: 4vw;
+    padding-right: 4vw;
+    text-align: center;
+    position: relative;
+  }
+
+  #header_logo {
+    position: absolute;
+    height: 43px;
+    width: 43px;
+    margin-left: -20px;
+    margin-bottom: 5px;
+  }
+
+  .header ul li a:hover {
+    background-color: white;
+    color: black;
+    border-radius: 10px;
+  }
+
+  p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+
+  h2 {
+    font-size: 28px;
+  }
+
+  h3 {
+    font-size: 21px;
+  }
+
+  .intro {
+  }
+
+  #fact_fake_image {
+    width: 70%;
+    height: 70%;
+    margin-left: 250px;
+    border-radius: 20px;
+    filter: drop-shadow(15px 10px 40px black);
+  }
+
+  #welcome_title {
+    margin-left: 200px;
+    margin-top: 30px;
+    border-bottom: 1px solid black;
+    width: 50%;
+    font-family: "oswald";
+    font-size: 12rem;
+    animation: color-change 30s infinite;
+  }
+
+  @keyframes color-change {
+    0% {
+      color: black;
+    }
+    25% {
+      color: blue;
+    }
+    50% {
+      color: orange;
+    }
+    75% {
+      color: brown;
+    }
+    100% {
+      color: black;
+    }
+  }
+
+  #Welcome_text {
+    margin-left: 200px;
+    margin-top: 30px;
+    font-size: 16px;
+    margin-right: 800px;
+    text-indent: 45px;
+    color: black;
+  }
+
+  #paranoia_img {
+    float: right;
+    margin-top: -21vh;
+    margin-right: 7vw;
+    height: auto;
+    width: 15%;
+    margin-right: 30vh;
+  }
+
+  #what_is_a_conspiracy_theory_title {
+    margin-left: 200px;
+    margin-top: 50px;
+    font-family: "oswald";
+  }
+
+  #what_is_a_conspiracy_theory_text {
+    margin-left: 200px;
+    margin-top: 50px;
+    margin-right: 41vw;
+    color: black;
+    text-indent: 45px;
+    font-size: 16px;
+  }
+
+  #conspiracy_theories {
+  }
+
+  #conspiracy_theoires_title {
+    margin-left: 200px;
+    margin-top: 50px;
+    font-family: oswald;
+  }
+
+  #september_11_attacks {
+  }
+
+  #september_11_attacks_title {
+    margin-left: 250px;
+    margin-top: 50px;
+    font-family: oswald;
+  }
+
+  #september_11_attacks_text {
+    margin-left: 250px;
+    font-size: 16px;
+    margin-right: 41vw;
+    margin-top: 30px;
+    text-indent: 45px;
+  }
+
+  #september_11_attacks_img {
+    border-radius: 30px;
+    width: 25%;
+    height: auto;
+    margin-right: 250px;
+    float: right;
+    margin-top: -23vh;
+    box-shadow: 1px 1px black;
+    filter: drop-shadow(15px 10px 40px black);
+  }
+
+  #september_11_attacks_img:hover {
+    transform: translateY(-7%);
+    transition: 0.5s ease-in-out;
+  }
+
+  #us_moon_landing {
+  }
+
+  #us_moon_landing_title {
+    margin-top: 50px;
+    margin-left: 250px;
+    font-family: oswald;
+  }
+
+  #us_moon_landing_text {
+    margin-left: 40vw;
+    margin-right: 250px;
+    margin-top: 150px;
+    text-indent: 45px;
+    font-size: 15px;
+    color: black;
+  }
+
+  #us_moon_landing_img {
+    width: 25%;
+    height: auto;
+    border-radius: 30px;
+    margin-top: -150px;
+    margin-left: 250px;
+    filter: drop-shadow(15px 10px 40px black);
+  }
+
+  #us_moon_landing_img:hover {
+    transform: translateY(-7%);
+    transition: 0.5s ease-in-out;
+  }
+
+  #Illuminati {
+  }
+
+  #Illuminati_title {
+    margin-left: 250px;
+    margin-top: 50px;
+    font-family: oswald;
+  }
+
+  #Illuminati_text {
+    margin-left: 250px;
+    font-size: 15px;
+    margin-right: 41vw;
+    margin-top: 30px;
+    text-indent: 45px;
+  }
+
+  #illuminati_img {
+    border-radius: 30px;
+    width: 20%;
+    height: auto;
+    margin-right: 250px;
+    float: right;
+    margin-top: -250px;
+    filter: drop-shadow(15px 10px 40px black);
+  }
+
+  #illuminati_img:hover {
+    transform: translateY(-7%);
+    transition: 0.5s ease-in-out;
+  }
+
+  #area_51 {
+  }
+
+  #area_51_title {
+    margin-top: 70px;
+    margin-left: 250px;
+    font-family: oswald;
+  }
+
+  #area_51_text {
+    margin-left: 40vw;
+    margin-right: 250px;
+    margin-top: 250px;
+    text-indent: 45px;
+    font-size: 15px;
+    color: black;
+  }
+
+  #area_51_img {
+    width: 25%;
+    height: auto;
+    border-radius: 30px;
+    margin-top: -200px;
+    margin-left: 250px;
+    filter: drop-shadow(15px 10px 40px black);
+  }
+
+  #area_51_img:hover {
+    transform: translateY(-7%);
+    transition: 0.5s ease-in-out;
+  }
+
+  .db_cooper {
+  }
+
+  #db_cooper_title {
+    margin-left: 250px;
+    margin-top: 50px;
+    font-family: oswald;
+  }
+
+  #db_cooper_text {
+    margin-left: 250px;
+    font-size: 15px;
+    margin-right: 41vw;
+    margin-top: 30px;
+    text-indent: 45px;
+  }
+
+  #db_cooper_img {
+    border-radius: 30px;
+    width: 20%;
+    height: auto;
+    margin-right: 320px;
+    float: right;
+    margin-top: -200px;
+    filter: drop-shadow(15px 10px 40px black);
+  }
+
+  #db_cooper_img:hover {
+    transform: translateY(-7%);
+    transition: 0.5s ease-in-out;
+  }
+
+  .jfk_assasination {
+  }
+
+  #jfk_title {
+    margin-top: 50px;
+    margin-left: 250px;
+    font-family: oswald;
+  }
+
+  #jfk_assasination_text {
+    margin-left: 40vw;
+    margin-right: 250px;
+    margin-top: 250px;
+    text-indent: 45px;
+    font-size: 15px;
+    color: black;
+  }
+
+  #jfk_img {
+    width: 25%;
+    height: auto;
+    border-radius: 30px;
+    margin-top: -220px;
+    margin-left: 250px;
+    filter: drop-shadow(15px 10px 40px black);
+  }
+
+  #jfk_img:hover {
+    transform: translateY(-7%);
+    transition: 0.5s ease-in-out;
+  }
+
+  .zodiac_killer {
+  }
+
+  #zodiac_title {
+    margin-left: 250px;
+    margin-top: 50px;
+    font-family: oswald;
+  }
+
+  #zodiac_text {
+    margin-left: 250px;
+    font-size: 15px;
+    margin-right: 680px;
+    margin-top: 30px;
+    text-indent: 45px;
+  }
+
+  #zodiac_img {
+    border-radius: 30px;
+    width: 15%;
+    height: auto;
+    margin-right: 250px;
+    float: right;
+    margin-top: -190px;
+    filter: drop-shadow(15px 10px 40px black);
+  }
+
+  #zodiac_img:hover {
+    transform: translateY(-7%);
+    transition: 0.5s ease-in-out;
+  }
+
+  .hitler_death {
+  }
+
+  #Hitler_title {
+    margin-top: 50px;
+    margin-left: 250px;
+    font-family: oswald;
+  }
+
+  #hitler_text {
+    margin-left: 730px;
+    margin-right: 250px;
+    margin-top: 230px;
+    text-indent: 45px;
+    font-size: 15px;
+    color: black;
+  }
+
+  #hitler_img {
+    width: 13%;
+    height: auto;
+    border-radius: 30px;
+    margin-top: -200px;
+    margin-left: 250px;
+    filter: drop-shadow(15px 10px 40px black);
+  }
+
+  #hitler_img:hover {
+    transform: translateY(-7%);
+    transition: 0.5s ease-in-out;
+  }
+
+  .government_cover_up {
+  }
+
+  #government_title {
+    margin-left: 250px;
+    margin-top: 50px;
+    font-family: oswald;
+  }
+
+  #government_text {
+    margin-left: 250px;
+    font-size: 15px;
+    margin-right: 680px;
+    margin-top: 30px;
+    text-indent: 45px;
+  }
+
+  #government_img {
+    border-radius: 30px;
+    width: 15%;
+    height: auto;
+    margin-right: 300px;
+    float: right;
+    margin-top: -160px;
+    filter: drop-shadow(15px 10px 40px black);
+  }
+
+  #government_img:hover {
+    transform: translateY(-7%);
+    transition: 0.5s ease-in-out;
+  }
+
+  .riddle {
+    margin-top: 250px;
+  }
+
+  #riddle_text {
+    text-align: center;
+    float: left;
+    margin-left: 150px;
+  }
+
+  #riddle_img {
+    filter: blur(5px);
+    float: right;
+    margin-right: 12vw;
+    margin-top: -1vh;
+    border: 1px solid black;
+  }
+
+  #riddle_img:hover {
+    filter: blur(0px);
+  }
+
+  * {
+    text-decoration: none;
+  }
+
+  #top_button {
+    position: absolute;
+    margin-top: 19vw;
+    margin-left: 45%;
+    margin-right: 40%;
+    background-color: yellow;
+    border-radius: 10px;
+    padding: 5px;
+    color: black;
+    text-decoration: none;
+  }
+
+  #top_button p {
+    color: black;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: oswald;
+  }
+
+  .footer {
+    background-color: black;
+    margin-top: 70vh;
+    height: 80px;
+  }
+
+  .footer ul {
+    text-align: center;
+  }
+
+  .footer ul li {
+    display: inline-flex;
+    color: white;
+    justify-content: space-between;
+    padding-left: 4vw;
+    padding-right: 4vw;
+    font-family: cursive;
+    font-size: 0.7vw;
+    margin-bottom: 1vh;
+  }
+
+  .footer ul li a {
+    text-decoration: none;
+    color: white;
+  }
+
+  #footer_logo {
+    transform: translateY(25%);
+    height: 50px;
+    width: 50px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  * {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    box-sizing: border-box;
+  }
+
+  .header {
+    background-color: black;
+    height: 45px;
+    width: 100vw;
+    max-width: inherit;
+    position: fixed;
+  }
+
+  .header ul {
+  }
+
+  .header ul li {
+    display: inline-flex;
+  }
+
+  .header ul li a {
+    color: white;
+    text-decoration: none;
+    margin-right: 1vw;
+    margin-left: 1vw;
+    font-size: 2.9vw;
+    font-family: "oswald";
+    margin-top: 10px;
+    padding-left: 2vw;
+    padding-right: 2vw;
+    text-align: center;
+  }
+
+  #header_logo {
+    position: absolute;
+    height: 43px;
+    width: 43px;
+    margin-left: -20px;
+    bottom: 1px;
+  }
+
+  .header ul li a:hover {
+    background-color: white;
+    color: black;
+    border-radius: 10px;
+  }
+
+  #top_button {
+    position: absolute;
+    margin-top: 55vw;
+    margin-left: 40%;
+    margin-right: 40%;
+    background-color: yellow;
+    border-radius: 10px;
+    padding: 5px;
+    color: black;
+    text-decoration: none;
+  }
+
+  #welcome_title {
+    margin-left: 7vw;
+    margin-top: 30px;
+    border-bottom: 1px solid black;
+    font-family: "oswald";
+    font-size: 3rem;
+    animation: color-change 30s infinite;
+  }
+}
+.popup .overlay {
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  width: 100vw;
+  height: 100vh;
+  background: rgba(0, 0, 0, 0.7);
+  z-index: 1;
+  display: none;
+}
+
+.popup .content {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) scale(0);
+  background: white;
+  color: black;
+  width: 450px;
+  height: 220px;
+  z-index: 2;
+  text-align: center;
+  box-sizing: border-box;
+  border-radius: 20px;
+  padding-top: 1.525rem;
+  padding-bottom: 15.625em;
+}
+
+.popup .content a {
+  color: black;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 0.875rem;
+  text-decoration: underline;
+}
+
+.popup .close-btn {
+  cursor: pointer;
+  position: absolute;
+  right: 20px;
+  top: 20px;
+  width: 30px;
+  height: 30px;
+  background: #222;
+  color: white;
+  font-size: 1.563rem;
+  font-weight: 600;
+  line-height: 30px;
+  text-align: center;
+  border-radius: 50%;
+}
+
+.popup.active .overlay {
+  display: block;
+}
+
+.popup.active .content {
+  transition: all 300ms ease-in-out;
+  transform: translate(-50%, -50%) scale(1);
+}
+
+button {
+  position: absolute;
+  top: 5%;
+}
+
+.exit-intent-popup {
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  z-index: 1;
+  background: rgba(33, 33, 33, 0.8);
+}
+
+.newsletter {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.exit-intent-popup {
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  z-index: 1;
+  background: rgba(33, 33, 33, 0.8);
+  transform: translateY(60%) scale(0);
+}
+
+.exit-intent-popup.visible {
+  transform: translateY(0) scale(1);
+}

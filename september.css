@@ -1,0 +1,718 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap");
+
+html {
+  scroll-behavior: smooth;
+}
+
+@media screen and (max-width: 1024px) {
+  * {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    box-sizing: border-box;
+  }
+
+  .header {
+    background-color: black;
+    height: 45px;
+    width: 120vw;
+    position: fixed;
+    z-index: 999999;
+  }
+
+  .header ul {
+  }
+
+  .header ul li {
+    display: inline-flex;
+  }
+
+  .header ul li a {
+    color: white;
+    text-decoration: none;
+    margin-right: 4.3vw;
+    margin-left: 4.3vw;
+    font-size: 1vw;
+    font-family: "oswald";
+    margin-top: 2vh;
+    padding-left: 12px;
+    padding-right: 12px;
+    text-align: center;
+  }
+
+  #header_logo {
+    position: absolute;
+    height: 43px;
+    width: 43px;
+    margin-left: -20px;
+    margin-top: -3.1vh;
+  }
+
+  .header ul li a:hover {
+    background-color: white;
+    color: black;
+    border-radius: 10px;
+  }
+
+  #main_title {
+    padding-top: 70px;
+    border-bottom: 1px solid black;
+    padding-bottom: 10px;
+    width: 95%;
+  }
+
+  #main_img {
+    margin-top: 30px;
+    height: 90%;
+    width: 90%;
+    padding-bottom: 20px;
+  }
+
+  #content h1 {
+    font-family: oswald;
+  }
+
+  #content h2 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+
+  #content {
+    padding-left: 50px;
+  }
+
+  #content p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+
+  #popular_opinion_title {
+    border-right: 1px solid black;
+    width: 230px;
+    height: 80px;
+  }
+
+  #popular_opinion_text {
+    margin-left: 50px;
+    text-indent: 45px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+  }
+
+  #possible_theories_title {
+    border-bottom: 1px solid black;
+    width: 250px;
+  }
+
+  #holograms {
+    margin-left: 50px;
+    margin-top: 25px;
+  }
+
+  #holograms_title {
+    padding-bottom: 20px;
+  }
+
+  #holograms_text {
+    text-indent: 45px;
+    margin-right: 300px;
+  }
+
+  #hologram_img {
+    width: auto;
+    height: 200px;
+    float: right;
+    margin-top: -200px;
+    margin-right: 25px;
+    border-radius: 20px;
+  }
+
+  #staged {
+    margin-top: 20px;
+  }
+
+  #staged_title {
+    margin-left: 50px;
+    padding-bottom: 20px;
+  }
+
+  #staged_text {
+    text-indent: 45px;
+    margin-left: 50px;
+    padding-bottom: 20px;
+  }
+
+  #plausible {
+    margin-left: 50px;
+  }
+
+  #plausible_title {
+    padding-bottom: 20px;
+  }
+
+  #plausible_text {
+    text-indent: 45px;
+    margin-right: 330px;
+  }
+
+  #question_mark_with_someone_leaning_on_it {
+    float: right;
+    margin-top: -350px;
+  }
+
+  * {
+    text-decoration: none;
+  }
+
+  #top_button {
+    position: absolute;
+    margin-top: 30px;
+    margin-left: 45%;
+    margin-right: 45%;
+    background-color: yellow;
+    border-radius: 10px;
+    padding: 5px;
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+  }
+
+  .footer {
+    background-color: black;
+    margin-top: 10vh;
+    height: 100px;
+  }
+
+  .footer ul {
+    text-align: center;
+  }
+
+  .footer ul li {
+    display: inline-flex;
+    color: white;
+    justify-content: space-between;
+    padding-left: 15px;
+    padding-right: 15px;
+    font-family: cursive;
+    font-size: 12px;
+    margin-bottom: 20px;
+  }
+
+  .footer ul li a {
+    text-decoration: none;
+    color: white;
+  }
+
+  #footer_logo {
+    transform: translateY(25%);
+    height: 50px;
+    width: 50px;
+  }
+}
+@media screen and (max-width: 1440px) and (min-width: 1025px) {
+  * {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    box-sizing: border-box;
+  }
+
+  .header {
+    background-color: black;
+    height: 45px;
+    width: 144vw;
+    max-width: inherit;
+    position: fixed;
+    z-index: 99999;
+  }
+
+  .header ul {
+  }
+
+  .header ul li {
+    display: inline-flex;
+  }
+
+  .header ul li a {
+    color: white;
+    text-decoration: none;
+    margin-right: 1.4vw;
+    margin-left: 1.4vw;
+    font-size: 1vw;
+    font-family: "oswald";
+    margin-top: 10px;
+    padding-left: 4.3vw;
+    padding-right: 4.3vw;
+    text-align: center;
+  }
+
+  #header_logo {
+    position: absolute;
+    height: 43px;
+    width: 43px;
+    margin-left: -20px;
+    margin-bottom: 5px;
+    margin-top: -3vh;
+  }
+
+  .header ul li a:hover {
+    background-color: white;
+    color: black;
+    border-radius: 10px;
+  }
+
+  #main_title {
+    padding-top: 70px;
+    border-bottom: 1px solid black;
+    padding-bottom: 10px;
+    width: 95%;
+  }
+
+  #main_img {
+    margin-top: 30px;
+    height: 90%;
+    width: 90%;
+    padding-bottom: 20px;
+  }
+
+  #content h1 {
+    font-family: oswald;
+  }
+
+  #content h2 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+
+  #content {
+    padding-left: 50px;
+  }
+
+  #content p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+
+  #popular_opinion_title {
+    border-right: 1px solid black;
+    width: 230px;
+    height: 80px;
+  }
+
+  #popular_opinion_text {
+    margin-left: 50px;
+    text-indent: 45px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+  }
+
+  #possible_theories_title {
+    border-bottom: 1px solid black;
+    width: 250px;
+  }
+
+  #holograms {
+    margin-left: 50px;
+    margin-top: 25px;
+  }
+
+  #holograms_title {
+    padding-bottom: 20px;
+  }
+
+  #holograms_text {
+    text-indent: 45px;
+    margin-right: 350px;
+  }
+
+  #hologram_img {
+    width: auto;
+    height: 200px;
+    float: right;
+    margin-top: -200px;
+    margin-right: 25px;
+    border-radius: 20px;
+  }
+
+  #staged {
+    margin-top: 20px;
+  }
+
+  #staged_title {
+    margin-left: 50px;
+    padding-bottom: 20px;
+  }
+
+  #staged_text {
+    text-indent: 45px;
+    margin-left: 50px;
+    padding-bottom: 20px;
+    margin-right: 500px;
+  }
+
+  #plausible {
+    margin-left: 50px;
+  }
+
+  #plausible_title {
+    padding-bottom: 20px;
+  }
+
+  #plausible_text {
+    text-indent: 45px;
+    margin-right: 330px;
+  }
+
+  #question_mark_with_someone_leaning_on_it {
+    float: right;
+    margin-top: -250px;
+  }
+
+  * {
+    text-decoration: none;
+  }
+
+  #top_button {
+    position: absolute;
+    margin-top: 30px;
+    margin-left: 45%;
+    margin-right: 45%;
+    background-color: yellow;
+    border-radius: 10px;
+    padding: 5px;
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+  }
+
+  .footer {
+    background-color: black;
+    margin-top: 10vh;
+    height: 100px;
+  }
+
+  .footer ul {
+    text-align: center;
+  }
+
+  .footer ul li {
+    display: inline-flex;
+    color: white;
+    justify-content: space-between;
+    padding-left: 2vw;
+    padding-right: 2vw;
+    font-family: cursive;
+    font-size: 12px;
+    margin-bottom: 20px;
+  }
+
+  .footer ul li a {
+    text-decoration: none;
+    color: white;
+  }
+
+  #footer_logo {
+    transform: translateY(25%);
+    height: 50px;
+    width: 50px;
+  }
+}
+
+@media screen and (min-width: 1441px) {
+  * {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    box-sizing: border-box;
+  }
+
+  .header {
+    background-color: black;
+    height: 45px;
+    width: 100vw;
+    position: fixed;
+    z-index: 99999;
+  }
+
+  .header ul {
+  }
+
+  .header ul li {
+    display: inline-flex;
+  }
+
+  .header ul li a {
+    color: white;
+    text-decoration: none;
+    margin-right: 1.4vw;
+    margin-left: 1.4vw;
+    font-size: 1vw;
+    font-family: "oswald";
+    margin-top: 10px;
+    padding-left: 4vw;
+    padding-right: 4vw;
+    text-align: center;
+    position: relative;
+  }
+
+  #header_logo {
+    position: absolute;
+    height: 43px;
+    width: 43px;
+    margin-left: -20px;
+    margin-bottom: 5px;
+    margin-top: -3vh;
+  }
+
+  .header ul li a:hover {
+    background-color: white;
+    color: black;
+    border-radius: 10px;
+  }
+
+  #main_title {
+    padding-top: 70px;
+    border-bottom: 1px solid black;
+    padding-bottom: 10px;
+    width: 95%;
+  }
+
+  #main_img {
+    margin-top: 30px;
+    height: 90%;
+    width: 90%;
+    padding-bottom: 20px;
+  }
+
+  #content h1 {
+    font-family: oswald;
+  }
+
+  #content h2 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+
+  #content {
+    padding-left: 50px;
+  }
+
+  #content p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+
+  #popular_opinion_title {
+    border-right: 1px solid black;
+    width: 230px;
+    height: 80px;
+  }
+
+  #popular_opinion_text {
+    margin-left: 50px;
+    text-indent: 45px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+  }
+
+  #possible_theories_title {
+    border-bottom: 1px solid black;
+    width: 250px;
+    margin-top: 50px;
+  }
+
+  #holograms {
+    margin-left: 50px;
+    margin-top: 25px;
+    margin-top: 50px;
+  }
+
+  #holograms_title {
+    padding-bottom: 20px;
+  }
+
+  #holograms_text {
+    text-indent: 45px;
+    margin-right: 600px;
+  }
+
+  #hologram_img {
+    width: auto;
+    height: 250px;
+    float: right;
+    margin-top: -200px;
+    margin-right: 200px;
+    border-radius: 20px;
+  }
+
+  #staged {
+    margin-top: 50px;
+  }
+
+  #staged_title {
+    margin-left: 50px;
+    padding-bottom: 20px;
+  }
+
+  #staged_text {
+    text-indent: 45px;
+    margin-left: 50px;
+    padding-bottom: 20px;
+    margin-right: 600px;
+  }
+
+  #plausible {
+    margin-left: 50px;
+  }
+
+  #plausible_title {
+    padding-bottom: 20px;
+  }
+
+  #plausible_text {
+    text-indent: 45px;
+    margin-right: 330px;
+  }
+
+  #question_mark_with_someone_leaning_on_it {
+    float: right;
+    margin-top: -300px;
+  }
+
+  * {
+    text-decoration: none;
+  }
+
+  #top_button a {
+    position: absolute;
+    margin-top: 30px;
+    margin-left: 50vw;
+    transform: translate(-50%, -50%);
+    background-color: yellow;
+    border-radius: 10px;
+    padding: 5px;
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    font-family: oswald;
+  }
+
+  .footer {
+    background-color: black;
+    margin-top: 10vh;
+    height: 100px;
+  }
+
+  .footer ul {
+    text-align: center;
+  }
+
+  .footer ul li {
+    display: inline-flex;
+    color: white;
+    justify-content: space-between;
+    padding-left: 3vw;
+    padding-right: 3vw;
+    font-family: cursive;
+    font-size: 12px;
+    margin-bottom: 20px;
+  }
+
+  .footer ul li a {
+    text-decoration: none;
+    color: white;
+  }
+
+  #footer_logo {
+    transform: translateY(25%);
+    height: 50px;
+    width: 50px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  * {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    box-sizing: border-box;
+  }
+
+  .header {
+    background-color: black;
+    height: 45px;
+    width: 1024px;
+    max-width: inherit;
+    position: fixed;
+  }
+
+  .header ul {
+  }
+
+  .header ul li {
+    display: inline-flex;
+  }
+
+  .header ul li a {
+    color: white;
+    text-decoration: none;
+    margin-right: 2.4vw;
+    margin-left: 2.4vw;
+    font-size: 17px;
+    font-family: "oswald";
+    margin-top: 10px;
+    text-align: center;
+  }
+
+  #header_logo {
+    position: absolute;
+    height: 43px;
+    width: 43px;
+    margin-left: -20px;
+    bottom: 1px;
+  }
+
+  .header ul li a:hover {
+    background-color: white;
+    color: black;
+    border-radius: 10px;
+  }
+
+  .footer {
+    background-color: black;
+    margin-top: 100px;
+    height: 80px;
+  }
+
+  .footer ul {
+    text-align: center;
+  }
+
+  .footer ul li {
+    display: inline-flex;
+    color: white;
+    justify-content: space-between;
+    font-family: cursive;
+    font-size: 1vw;
+    margin-bottom: 20px;
+  }
+
+  .footer ul li a {
+    text-decoration: none;
+    color: white;
+  }
+
+  #footer_logo {
+    transform: translateY(25%);
+    height: 50px;
+    width: 50px;
+  }
+
+  #top_button a {
+    position: absolute;
+    margin-top: 30px;
+    transform: translate(-5%, -50%);
+    background-color: yellow;
+    border-radius: 10px;
+    padding: 5px;
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    font-family: oswald;
+    width: 770%;
+  }
+}

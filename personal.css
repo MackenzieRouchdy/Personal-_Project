@@ -1,0 +1,556 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap");
+
+@media screen and (max-width: 1024px) {
+  * {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    box-sizing: border-box;
+  }
+
+  .header {
+    background-color: black;
+    height: 45px;
+    width: 1024px;
+    max-width: inherit;
+    position: fixed;
+  }
+
+  .header ul {
+  }
+
+  .header ul li {
+    display: inline-flex;
+  }
+
+  .header ul li a {
+    color: white;
+    text-decoration: none;
+    margin-right: 35px;
+    margin-left: 35px;
+    font-size: 17px;
+    font-family: "oswald";
+    margin-top: 10px;
+    padding-left: 12px;
+    padding-right: 12px;
+    text-align: center;
+  }
+
+  #header_logo {
+    position: absolute;
+    height: 43px;
+    width: 43px;
+    margin-left: -20px;
+    bottom: 1px;
+  }
+
+  .header ul li a:hover {
+    background-color: white;
+    color: black;
+    border-radius: 10px;
+  }
+
+  #main_content {
+  }
+
+  #personal {
+  }
+
+  #personal_title {
+    position: absolute;
+    left: 5%;
+    top: 15%;
+    font-family: "oswald", sans-serif;
+    font-size: 42px;
+    border-right: black solid 1px;
+    padding-right: 2%;
+    padding-bottom: 2%;
+  }
+
+  #personal_text {
+    padding-top: 250px;
+    margin-left: 40px;
+    text-indent: 45px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-right: 400px;
+  }
+
+  #product {
+    position: absolute;
+    margin-top: 100px;
+    margin-right: 600px;
+    font-family: oswald;
+    margin-left: 50px;
+  }
+
+  #product_title {
+    font-size: 25px;
+    font-weight: bold;
+  }
+
+  #product_text {
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 20px;
+    text-indent: 45px;
+  }
+
+  #journal {
+    position: absolute;
+    margin-top: 300px;
+    margin-right: 600px;
+    font-family: oswald;
+    margin-left: 50px;
+  }
+
+  #journal_title {
+    font-size: 25px;
+    font-weight: bold;
+  }
+
+  #journal_text {
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 20px;
+    text-indent: 45px;
+  }
+
+  #report {
+    position: absolute;
+    margin-top: 100px;
+    margin-left: 550px;
+    margin-right: 50px;
+  }
+
+  #report_title {
+    font-family: oswald;
+    font-weight: bold;
+    font-size: 25px;
+  }
+
+  #report_text {
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 25px;
+    text-indent: 45px;
+  }
+
+  #important {
+    position: absolute;
+    margin-top: 360px;
+    margin-left: 550px;
+    margin-right: 50px;
+  }
+
+  #important_text {
+  }
+
+  #light_bulb {
+    position: absolute;
+    margin-top: -200px;
+    margin-left: 700px;
+    max-width: 5000px;
+  }
+}
+
+@media screen and (max-width: 1440px) and (min-width: 1025px) {
+  * {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    box-sizing: border-box;
+  }
+
+  .header {
+    background-color: black;
+    height: 45px;
+    width: 144vw;
+    max-width: inherit;
+    position: fixed;
+    z-index: 99999;
+  }
+
+  .header ul {
+  }
+
+  .header ul li {
+    display: inline-flex;
+  }
+
+  .header ul li a {
+    color: white;
+    text-decoration: none;
+    margin-right: 1.4vw;
+    margin-left: 1.4vw;
+    font-size: 1.1vw;
+    font-family: "oswald";
+    margin-top: 10px;
+    padding-left: 4.3vw;
+    padding-right: 4.3vw;
+    text-align: center;
+  }
+
+  #header_logo {
+    position: absolute;
+    height: 43px;
+    width: 43px;
+    margin-left: -20px;
+    margin-top: -2.3vh;
+  }
+
+  .header ul li a:hover {
+    background-color: white;
+    color: black;
+    border-radius: 10px;
+  }
+
+  #main_content {
+    margin-top: 5000px;
+  }
+
+  #personal {
+    padding-top: 50px;
+  }
+
+  #personal_title {
+    margin-left: 50px;
+    font-family: oswald;
+    font-size: 50px;
+    margin-top: 80px;
+    border-right: 1px solid black;
+    width: 22%;
+    height: 150px;
+  }
+
+  #personal_text {
+    margin-top: 50px;
+    margin-left: 50px;
+    text-indent: 45px;
+    margin-right: 500px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-bottom: 50px;
+  }
+
+  #product {
+  }
+
+  #product_title {
+    margin-left: 50px;
+    font-size: 40px;
+    font-family: oswald;
+  }
+
+  #product_text {
+    margin-left: 50px;
+    text-indent: 45px;
+    margin: 50px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-right: 700px;
+  }
+
+  #journal {
+  }
+
+  #journal_title {
+    float: right;
+    margin-top: -19.5vw;
+    font-size: 40px;
+    font-family: oswald;
+    margin-right: 30vw;
+  }
+
+  #journal_text {
+    margin-left: 58vw;
+    margin-right: 1.2vw;
+    text-indent: 45px;
+    margin-top: -110px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+
+  #report {
+  }
+
+  #report_title {
+    margin-left: 50px;
+    font-size: 40px;
+    font-family: oswald;
+    margin-right: 450px;
+    margin-top: 50px;
+  }
+
+  #report_text {
+    margin-left: 50px;
+    margin-right: 700px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 50px;
+  }
+
+  #important {
+    margin-left: 58vw;
+    margin-top: -10vh;
+    margin-right: 1.2vw;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-bottom: 200px;
+  }
+
+  #important_text {
+  }
+
+  #light_bulb {
+    float: right;
+    margin-top: -350px;
+    margin-right: 200px;
+  }
+}
+
+@media screen and (min-width: 1441px) {
+  * {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    box-sizing: border-box;
+  }
+
+  .header {
+    background-color: black;
+    height: 45px;
+    width: 100vw;
+    position: fixed;
+    z-index: 99999;
+  }
+
+  .header ul {
+  }
+
+  .header ul li {
+    display: inline-flex;
+  }
+
+  .header ul li a {
+    color: white;
+    text-decoration: none;
+    margin-right: 1.4vw;
+    margin-left: 1.4vw;
+    font-size: 1vw;
+    font-family: "oswald";
+    margin-top: 10px;
+    padding-left: 4vw;
+    padding-right: 4vw;
+    text-align: center;
+    position: relative;
+  }
+
+  #header_logo {
+    position: absolute;
+    height: 43px;
+    width: 43px;
+    margin-left: -20px;
+    margin-top: -31px;
+  }
+
+  .header ul li a:hover {
+    background-color: white;
+    color: black;
+    border-radius: 10px;
+  }
+
+  #main_content {
+    margin-top: 5000px;
+  }
+
+  #personal {
+    padding-top: 50px;
+  }
+
+  #personal_title {
+    margin-left: 50px;
+    font-family: oswald;
+    font-size: 50px;
+    margin-top: 80px;
+    border-right: 1px solid black;
+    width: 22%;
+    height: 150px;
+  }
+
+  #personal_text {
+    margin-top: 50px;
+    margin-left: 50px;
+    text-indent: 45px;
+    margin-right: 500px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-bottom: 50px;
+  }
+
+  #product {
+  }
+
+  #product_title {
+    margin-left: 50px;
+    font-size: 40px;
+    font-family: oswald;
+  }
+
+  #product_text {
+    margin-left: 50px;
+    text-indent: 45px;
+    margin: 50px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-right: 60vw;
+  }
+
+  #journal {
+  }
+
+  #journal_title {
+    float: right;
+    margin-top: -9.8vh;
+    font-size: 40px;
+    font-family: oswald;
+    margin-right: 41.5vw;
+  }
+
+  #journal_text {
+    margin-left: 50vw;
+    text-indent: 45px;
+    margin-top: -110px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-right: 10vw;
+  }
+
+  #report {
+  }
+
+  #report_title {
+    margin-left: 50px;
+    font-size: 40px;
+    font-family: oswald;
+    margin-right: 350px;
+    margin-top: 50px;
+  }
+
+  #report_text {
+    margin-left: 50px;
+    margin-right: 60vw;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 50px;
+  }
+
+  #important {
+    margin-left: 50vw;
+    margin-top: -60px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-bottom: 200px;
+    margin-right: 10vw;
+  }
+
+  #important_text {
+  }
+
+  #light_bulb {
+    float: right;
+    margin-top: -350px;
+    margin-right: 200px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  * {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    box-sizing: border-box;
+  }
+
+  .header {
+    background-color: black;
+    height: 45px;
+    width: 100vw;
+    max-width: inherit;
+    position: fixed;
+  }
+
+  .header ul {
+  }
+
+  .header ul li {
+    display: inline-flex;
+  }
+
+  .header ul li a {
+    color: white;
+    text-decoration: none;
+    margin-right: 2.9vw;
+    margin-left: 2.9vw;
+    font-size: 17px;
+    font-family: "oswald";
+    margin-top: 10px;
+    padding-left: 1vw;
+    padding-right: 1vw;
+    text-align: center;
+  }
+
+  #header_logo {
+    position: absolute;
+    height: 43px;
+    width: 43px;
+    margin-left: -20px;
+    bottom: 1px;
+  }
+
+  .header ul li a:hover {
+    background-color: white;
+    color: black;
+    border-radius: 10px;
+  }
+
+  #main_content {
+    margin-top: 5000px;
+  }
+
+  #personal {
+    padding-top: 50px;
+  }
+
+  #product_text {
+    width: 250%;
+  }
+
+  #journal_text {
+    width: 250%;
+  }
+
+  #report {
+    margin-right: 50vw;
+  }
+
+  #report_title {
+    font-family: oswald;
+    margin-left: -15vw;
+  }
+
+  #report_text {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width: 40vw;
+    margin-right: 10vw;
+    margin-left: -15vw;
+  }
+
+  #important {
+    margin-left: 57vw;
+    margin-top: 46.5vw;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+
+  img {
+    float: right;
+    margin-top: -350px;
+    margin-right: 640vw;
+  }
+
+  #light_bulb {
+    float: right;
+    margin-top: 5vw;
+  }
+
+  body {
+    margin: 0;
+    padding: 0;
+  }
+}

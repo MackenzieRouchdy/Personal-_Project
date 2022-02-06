@@ -1,0 +1,238 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap");
+
+a {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+@media screen and (max-width: 1024px) {
+  #main_content h1 {
+    font-family: oswald;
+  }
+  html {
+    scroll-behavior: smooth;
+  }
+
+  * {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    box-sizing: border-box;
+  }
+
+  .header {
+    background-color: black;
+    height: 45px;
+    width: 1024px;
+    max-width: inherit;
+    position: fixed;
+  }
+
+  .header ul {
+  }
+
+  .header ul li {
+    display: inline-flex;
+  }
+
+  .header ul li a {
+    color: white;
+    text-decoration: none;
+    margin-right: 1vw;
+    margin-left: 1vw;
+    font-size: 3vw;
+    font-family: "oswald";
+    margin-top: 10px;
+    padding-left: 1.7vw;
+    padding-right: 1.7vw;
+    text-align: center;
+  }
+
+  #header_logo {
+    position: absolute;
+    height: 43px;
+    width: 43px;
+    margin-left: -20px;
+    bottom: 1px;
+  }
+
+  .header ul li a:hover {
+    background-color: white;
+    color: black;
+    border-radius: 10px;
+  }
+
+  .header ul li a:hover {
+    background-color: white;
+    color: black;
+    border-radius: 10px;
+  }
+
+  #main_content {
+    margin-left: 50px;
+  }
+
+  #top_button p {
+    background-color: yellow;
+    text-align: center;
+    padding: 5px;
+    margin-left: 45%;
+    margin-right: 45%;
+    color: black;
+  }
+}
+
+@media screen and (max-width: 1440px) and (min-width: 1025px) {
+  #main_content h1 {
+    font-family: oswald;
+  }
+  html {
+    scroll-behavior: smooth;
+  }
+
+  * {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    box-sizing: border-box;
+    text-decoration: none;
+  }
+
+  .header {
+    background-color: black;
+    height: 45px;
+    width: 1440px;
+    max-width: inherit;
+    position: fixed;
+  }
+
+  .header ul {
+  }
+
+  .header ul li {
+    display: inline-flex;
+  }
+
+  .header ul li a {
+    color: white;
+    text-decoration: none;
+    margin-right: 35px;
+    margin-left: 35px;
+    font-size: 17px;
+    font-family: "oswald";
+    margin-top: 10px;
+    padding-left: 43px;
+    padding-right: 43px;
+    text-align: center;
+  }
+
+  #header_logo {
+    position: absolute;
+    height: 43px;
+    width: 43px;
+    margin-left: -20px;
+    bottom: 1px;
+  }
+
+  .header ul li a:hover {
+    background-color: white;
+    color: black;
+    border-radius: 10px;
+  }
+
+  #main_content {
+    margin-left: 50px;
+  }
+
+  #top_button p {
+    background-color: yellow;
+    text-align: center;
+    margin-left: 45%;
+    margin-right: 45%;
+    color: black;
+    font-family: oswald;
+    font-weight: bold;
+    border-radius: 10px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    width: 7%;
+    padding: 5px;
+  }
+}
+
+@media screen and (min-width: 1441px) {
+  #main_content h1 {
+    font-family: oswald;
+  }
+  html {
+    scroll-behavior: smooth;
+  }
+
+  * {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    box-sizing: border-box;
+    text-decoration: none;
+  }
+
+  .header {
+    background-color: black;
+    height: 45px;
+    width: 144vw;
+    max-width: inherit;
+    position: fixed;
+  }
+
+  .header ul {
+  }
+
+  .header ul li {
+    display: inline-flex;
+  }
+
+  .header ul li a {
+    color: white;
+    text-decoration: none;
+    margin-right: 35px;
+    margin-left: 35px;
+    font-size: 17px;
+    font-family: "oswald";
+    margin-top: 10px;
+    padding-left: 4vw;
+    padding-right: 4vw;
+    text-align: center;
+  }
+
+  #header_logo {
+    position: absolute;
+    height: 43px;
+    width: 43px;
+    margin-left: -20px;
+    bottom: 1px;
+  }
+
+  .header ul li a:hover {
+    background-color: white;
+    color: black;
+    border-radius: 10px;
+  }
+
+  #main_content {
+    margin-left: 50px;
+  }
+
+  #top_button p {
+    background-color: yellow;
+    text-align: center;
+    margin-left: 50vw;
+    transform: translateX(-50%, -50%);
+    color: black;
+    font-family: oswald;
+    font-weight: bold;
+    border-radius: 10px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    width: 7%;
+    padding: 5px;
+  }
+}

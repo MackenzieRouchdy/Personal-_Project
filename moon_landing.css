@@ -1,0 +1,732 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap");
+
+@media screen and (max-width: 1024px) {
+  * {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    box-sizing: border-box;
+  }
+
+  .header {
+    background-color: black;
+    height: 45px;
+    width: 120vw;
+    position: fixed;
+    z-index: 999999;
+  }
+
+  .header ul {
+  }
+
+  .header ul li {
+    display: inline-flex;
+  }
+
+  .header ul li a {
+    color: white;
+    text-decoration: none;
+    margin-right: 4.3vw;
+    margin-left: 4.3vw;
+    font-size: 1vw;
+    font-family: "oswald";
+    margin-top: 2vh;
+    padding-left: 12px;
+    padding-right: 12px;
+    text-align: center;
+  }
+
+  #header_logo {
+    position: absolute;
+    height: 43px;
+    width: 43px;
+    margin-left: -20px;
+    margin-top: -3.1vh;
+  }
+
+  .header ul li a:hover {
+    background-color: white;
+    color: black;
+    border-radius: 10px;
+  }
+
+  #start img {
+    height: auto;
+    width: 80%;
+    margin-top: 50px;
+    margin-left: 10%;
+  }
+
+  #start h1 {
+    padding-top: 70px;
+    border-bottom: 1px solid black;
+    padding-bottom: 10px;
+    width: 35%;
+    margin-left: 50px;
+  }
+
+  h1 {
+    font-family: oswald;
+  }
+
+  #popular_opinion {
+    margin-left: 50px;
+    margin-top: 50px;
+  }
+
+  #popular_opinion_title {
+    padding-bottom: 50px;
+  }
+
+  #popular_opinion_text {
+    text-indent: 45px;
+    padding-bottom: 50px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+
+  #popular_opinion img {
+    height: auto;
+    width: 400px;
+    margin-left: 50%;
+    transform: translateX(-50%);
+    border-radius: 10px;
+  }
+
+  #possible_theories {
+  }
+
+  #possible_theories_title {
+    border-bottom: 1px solid black;
+    margin-left: 40px;
+    width: 24%;
+  }
+
+  #filmed {
+    margin-top: 50px;
+    padding-left: 60px;
+  }
+
+  #filmed_text {
+    margin-top: 50px;
+    text-indent: 45px;
+    margin-right: 350px;
+  }
+
+  #possible_theories p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+  }
+
+  #filmed_img {
+    float: right;
+    margin-top: -250px;
+    margin-right: 75px;
+  }
+
+  #lucky {
+    margin-left: 50px;
+    margin-top: 50px;
+  }
+
+  #lucky_text {
+    margin-top: 50px;
+    text-indent: 45px;
+    margin-right: 400px;
+  }
+
+  #lucky img {
+    height: auto;
+    width: 30%;
+    float: right;
+    margin-top: -230px;
+    margin-right: 50px;
+    border-radius: 10px;
+  }
+
+  #plausible {
+    margin-top: 50px;
+    margin-left: 50px;
+  }
+
+  #plausible_title {
+    padding-bottom: 50px;
+  }
+
+  #plausible_text {
+    text-indent: 45px;
+    margin-right: 400px;
+  }
+
+  #plausible img {
+    float: right;
+    margin-top: -300px;
+    margin-right: 50px;
+  }
+
+  #top_button {
+    font-size: 25px;
+    font-family: "oswald", sans-serif;
+    text-decoration: none;
+    position: absolute;
+    color: black;
+    margin-left: 48%;
+    background-color: yellow;
+    border-radius: 15%;
+    padding-right: 5px;
+    padding-left: 5px;
+    margin-top: 25px;
+  }
+
+  * {
+    text-decoration: none;
+  }
+
+  .footer {
+    background-color: black;
+    margin-top: 10vh;
+    height: 100px;
+  }
+
+  .footer ul {
+    text-align: center;
+  }
+
+  .footer ul li {
+    display: inline-flex;
+    color: white;
+    justify-content: space-between;
+    padding-left: 15px;
+    padding-right: 15px;
+    font-family: cursive;
+    font-size: 12px;
+    margin-bottom: 20px;
+  }
+
+  .footer ul li a {
+    text-decoration: none;
+    color: white;
+  }
+
+  #footer_logo {
+    transform: translateY(25%);
+    height: 50px;
+    width: 50px;
+  }
+}
+
+@media screen and (max-width: 1440px) and (min-width: 1025px) {
+  * {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    box-sizing: border-box;
+  }
+
+  .header {
+    background-color: black;
+    height: 45px;
+    width: 144vw;
+    max-width: inherit;
+    position: fixed;
+    z-index: 99999;
+  }
+
+  .header ul {
+  }
+
+  .header ul li {
+    display: inline-flex;
+  }
+
+  .header ul li a {
+    color: white;
+    text-decoration: none;
+    margin-right: 1.4vw;
+    margin-left: 1.4vw;
+    font-size: 1vw;
+    font-family: "oswald";
+    margin-top: 10px;
+    padding-left: 4.3vw;
+    padding-right: 4.3vw;
+    text-align: center;
+  }
+
+  #header_logo {
+    position: absolute;
+    height: 43px;
+    width: 43px;
+    margin-left: -20px;
+    margin-bottom: 5px;
+    margin-top: -3vh;
+  }
+
+  .header ul li a:hover {
+    background-color: white;
+    color: black;
+    border-radius: 10px;
+  }
+
+  #start img {
+    height: auto;
+    width: 80%;
+    margin-top: 50px;
+    margin-left: 10%;
+  }
+
+  #start h1 {
+    padding-top: 70px;
+    border-bottom: 1px solid black;
+    padding-bottom: 10px;
+    width: 35%;
+    margin-left: 50px;
+  }
+
+  h1 {
+    font-family: oswald;
+  }
+
+  #popular_opinion {
+    margin-left: 50px;
+    margin-top: 50px;
+  }
+
+  #popular_opinion_title {
+    padding-bottom: 50px;
+  }
+
+  #popular_opinion_text {
+    text-indent: 45px;
+    padding-bottom: 50px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+
+  #popular_opinion img {
+    height: auto;
+    width: 400px;
+    margin-left: 50%;
+    transform: translateX(-50%);
+    border-radius: 10px;
+  }
+
+  #possible_theories {
+  }
+
+  #possible_theories_title {
+    border-bottom: 1px solid black;
+    margin-left: 40px;
+    width: 24%;
+  }
+
+  #filmed {
+    margin-top: 50px;
+    padding-left: 60px;
+  }
+
+  #filmed_text {
+    margin-top: 50px;
+    text-indent: 45px;
+    margin-right: 350px;
+  }
+
+  #possible_theories p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+  }
+
+  #filmed_img {
+    float: right;
+    margin-top: -250px;
+    margin-right: 75px;
+  }
+
+  #lucky {
+    margin-left: 50px;
+    margin-top: 50px;
+  }
+
+  #lucky_text {
+    margin-top: 50px;
+    text-indent: 45px;
+    margin-right: 500px;
+  }
+
+  #lucky img {
+    height: auto;
+    width: 30%;
+    float: right;
+    margin-top: -230px;
+    margin-right: 50px;
+    border-radius: 10px;
+  }
+
+  #plausible {
+    margin-top: 50px;
+    margin-left: 50px;
+  }
+
+  #plausible_title {
+    padding-bottom: 50px;
+  }
+
+  #plausible_text {
+    text-indent: 45px;
+    margin-right: 450px;
+  }
+
+  #plausible img {
+    float: right;
+    margin-top: -200px;
+    margin-right: 50px;
+  }
+
+  #top_button {
+    font-size: 25px;
+    font-family: "oswald", sans-serif;
+    text-decoration: none;
+    position: absolute;
+    color: black;
+    margin-left: 48%;
+    background-color: yellow;
+    border-radius: 15%;
+    padding-right: 5px;
+    padding-left: 5px;
+    margin-top: 25px;
+  }
+
+  * {
+    text-decoration: none;
+  }
+
+  .footer {
+    background-color: black;
+    margin-top: 10vh;
+    height: 100px;
+  }
+
+  .footer ul {
+    text-align: center;
+  }
+
+  .footer ul li {
+    display: inline-flex;
+    color: white;
+    justify-content: space-between;
+    padding-left: 42px;
+    padding-right: 42px;
+    font-family: cursive;
+    font-size: 12px;
+    margin-bottom: 20px;
+  }
+
+  .footer ul li a {
+    text-decoration: none;
+    color: white;
+  }
+
+  #footer_logo {
+    transform: translateY(25%);
+    height: 50px;
+    width: 50px;
+  }
+}
+
+@media screen and (min-width: 1441px) {
+  * {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    box-sizing: border-box;
+  }
+
+  .header {
+    background-color: black;
+    height: 45px;
+    width: 100vw;
+    position: fixed;
+    z-index: 99999;
+  }
+
+  .header ul {
+  }
+
+  .header ul li {
+    display: inline-flex;
+  }
+
+  .header ul li a {
+    color: white;
+    text-decoration: none;
+    margin-right: 1.4vw;
+    margin-left: 1.4vw;
+    font-size: 1vw;
+    font-family: "oswald";
+    margin-top: 10px;
+    padding-left: 4vw;
+    padding-right: 4vw;
+    text-align: center;
+    position: relative;
+  }
+
+  #header_logo {
+    position: absolute;
+    height: 43px;
+    width: 43px;
+    margin-left: -20px;
+    margin-bottom: 5px;
+    margin-top: -3vh;
+  }
+
+  .header ul li a:hover {
+    background-color: white;
+    color: black;
+    border-radius: 10px;
+  }
+
+  #start img {
+    height: auto;
+    width: 80%;
+    margin-top: 50px;
+    margin-left: 10%;
+  }
+
+  #start h1 {
+    padding-top: 70px;
+    border-bottom: 1px solid black;
+    padding-bottom: 10px;
+    width: 35%;
+    margin-left: 50px;
+  }
+
+  h1 {
+    font-family: oswald;
+  }
+
+  #popular_opinion {
+    margin-left: 50px;
+    margin-top: 50px;
+  }
+
+  #popular_opinion_title {
+    padding-bottom: 50px;
+  }
+
+  #popular_opinion_text {
+    text-indent: 45px;
+    padding-bottom: 50px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+
+  #popular_opinion img {
+    height: auto;
+    width: 400px;
+    margin-left: 50%;
+    transform: translateX(-50%);
+    border-radius: 10px;
+  }
+
+  #possible_theories {
+  }
+
+  #possible_theories_title {
+    border-bottom: 1px solid black;
+    margin-left: 40px;
+    width: 24%;
+  }
+
+  #filmed {
+    margin-top: 50px;
+    padding-left: 60px;
+  }
+
+  #filmed_text {
+    margin-top: 50px;
+    text-indent: 45px;
+    margin-right: 350px;
+  }
+
+  #possible_theories p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+  }
+
+  #filmed_img {
+    float: right;
+    margin-top: -250px;
+    margin-right: 75px;
+  }
+
+  #lucky {
+    margin-left: 50px;
+    margin-top: 50px;
+  }
+
+  #lucky_text {
+    margin-top: 50px;
+    text-indent: 45px;
+    margin-right: 600px;
+  }
+
+  #lucky img {
+    height: auto;
+    width: 23%;
+    float: right;
+    margin-top: -230px;
+    margin-right: 100px;
+    border-radius: 10px;
+  }
+
+  #plausible {
+    margin-top: 50px;
+    margin-left: 50px;
+  }
+
+  #plausible_title {
+    padding-bottom: 50px;
+  }
+
+  #plausible_text {
+    text-indent: 45px;
+    margin-right: 400px;
+  }
+
+  #plausible img {
+    float: right;
+    margin-top: -150px;
+    margin-right: 80px;
+  }
+
+  #top_button a {
+    font-size: 25px;
+    font-family: "oswald", sans-serif;
+    text-decoration: none;
+    position: absolute;
+    color: black;
+    margin-left: 48%;
+    background-color: yellow;
+    border-radius: 15%;
+    padding-right: 5px;
+    padding-left: 5px;
+    margin-top: 25px;
+  }
+
+  * {
+    text-decoration: none;
+  }
+
+  .footer {
+    background-color: black;
+    margin-top: 10vh;
+    height: 100px;
+  }
+
+  .footer ul {
+    text-align: center;
+  }
+
+  .footer ul li {
+    display: inline-flex;
+    color: white;
+    justify-content: space-between;
+    padding-left: 2vw;
+    padding-right: 2vw;
+    font-family: cursive;
+    font-size: 12px;
+    margin-bottom: 20px;
+  }
+
+  .footer ul li a {
+    text-decoration: none;
+    color: white;
+  }
+
+  #footer_logo {
+    transform: translateY(25%);
+    height: 50px;
+    width: 50px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  * {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    box-sizing: border-box;
+  }
+
+  .header {
+    background-color: black;
+    height: 45px;
+    width: 1024px;
+    max-width: inherit;
+    position: fixed;
+  }
+
+  .header ul {
+  }
+
+  .header ul li {
+    display: inline-flex;
+  }
+
+  .header ul li a {
+    color: white;
+    text-decoration: none;
+    margin-right: 2.4vw;
+    margin-left: 2.4vw;
+    font-size: 17px;
+    font-family: "oswald";
+    margin-top: 10px;
+    text-align: center;
+  }
+
+  #header_logo {
+    position: absolute;
+    height: 43px;
+    width: 43px;
+    margin-left: -20px;
+    bottom: 1px;
+  }
+
+  .header ul li a:hover {
+    background-color: white;
+    color: black;
+    border-radius: 10px;
+  }
+
+  .footer {
+    background-color: black;
+    margin-top: 100px;
+    height: 80px;
+  }
+
+  .footer ul {
+    text-align: center;
+  }
+
+  .footer ul li {
+    display: inline-flex;
+    color: white;
+    justify-content: space-between;
+    font-family: cursive;
+    font-size: 1vw;
+    margin-bottom: 20px;
+  }
+
+  .footer ul li a {
+    text-decoration: none;
+    color: white;
+  }
+
+  #footer_logo {
+    transform: translateY(25%);
+    height: 50px;
+    width: 50px;
+  }
+
+  #possible_theories_title {
+    border-bottom: 1px solid black;
+    margin-left: 40px;
+    width: 30%;
+  }
+}

@@ -1,0 +1,738 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap");
+
+html {
+  scroll-behavior: smooth;
+}
+
+@media screen and (max-width: 1024px) {
+  * {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    box-sizing: border-box;
+  }
+
+  .header {
+    background-color: black;
+    height: 45px;
+    width: 1024px;
+    max-width: inherit;
+    position: fixed;
+  }
+
+  .header ul {
+  }
+
+  .header ul li {
+    display: inline-flex;
+  }
+
+  .header ul li a {
+    color: white;
+    text-decoration: none;
+    margin-right: 35px;
+    margin-left: 35px;
+    font-size: 17px;
+    font-family: "oswald";
+    margin-top: 10px;
+    padding-left: 12px;
+    padding-right: 12px;
+    text-align: center;
+  }
+
+  #header_logo {
+    position: absolute;
+    height: 43px;
+    width: 43px;
+    margin-left: -20px;
+    bottom: 1px;
+  }
+
+  .header ul li a:hover {
+    background-color: white;
+    color: black;
+    border-radius: 10px;
+  }
+
+  #top_button {
+    font-size: 25px;
+    font-family: "oswald", sans-serif;
+    text-decoration: none;
+    position: absolute;
+    color: black;
+    margin-left: 45%;
+    background-color: yellow;
+    border-radius: 15%;
+    padding-right: 5px;
+    padding-left: 5px;
+    margin-top: 25px;
+  }
+
+  * {
+    text-decoration: none;
+  }
+
+  #content {
+    padding-top: 50px;
+  }
+
+  #content h1 {
+    font-family: oswald;
+  }
+
+  #starting_content_title {
+    margin-left: 50px;
+    margin-top: 50px;
+    border-bottom: 1px solid black;
+    width: 18%;
+  }
+
+  #starting_content img {
+    height: auto;
+    width: 90%;
+    margin-left: 4%;
+    margin-top: 50px;
+  }
+
+  #popular_opinion {
+    margin-top: 50px;
+  }
+
+  #popular_opinion_title {
+    margin-left: 50px;
+    border-right: 1px solid black;
+    width: 22%;
+    height: 100px;
+  }
+
+  #popular_opinion_text {
+    margin-left: 65px;
+    margin-top: 50px;
+    text-indent: 45px;
+  }
+
+  #content p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+
+  #popular_opinion_img {
+    float: right;
+    margin-top: -50px;
+    margin-right: 250px;
+    height: auto;
+    width: 10%;
+  }
+
+  #possible_theories {
+    margin-top: 90px;
+  }
+
+  #possible_theories_title {
+    margin-left: 50px;
+  }
+
+  #richard_title {
+    margin-left: 50px;
+    margin-top: 50px;
+  }
+
+  #richard_text {
+    text-indent: 45px;
+    margin-left: 50px;
+    margin-top: 50px;
+  }
+
+  #survive_title {
+    margin-left: 50px;
+    margin-top: 50px;
+  }
+
+  #survive_text {
+    margin-left: 50px;
+    text-indent: 45px;
+    margin-top: 50px;
+    margin-right: 400px;
+  }
+
+  #survive img {
+    border-radius: 10px;
+    float: right;
+    height: auto;
+    width: 30%;
+    margin-right: 50px;
+    margin-top: -200px;
+  }
+
+  #plausible_title {
+    margin-left: 50px;
+    margin-top: 50px;
+  }
+
+  #plausible_text {
+    margin-left: 65px;
+    text-indent: 45px;
+    margin-top: 50px;
+    margin-right: 400px;
+  }
+
+  #plausible img {
+    height: auto;
+    width: 20%;
+    float: right;
+    margin-top: -300px;
+    margin-right: 110px;
+  }
+
+  .footer {
+    background-color: black;
+    margin-top: 10vh;
+    height: 100px;
+  }
+
+  .footer ul {
+    text-align: center;
+  }
+
+  .footer ul li {
+    display: inline-flex;
+    color: white;
+    justify-content: space-between;
+    padding-left: 15px;
+    padding-right: 15px;
+    font-family: cursive;
+    font-size: 12px;
+    margin-bottom: 20px;
+  }
+
+  .footer ul li a {
+    text-decoration: none;
+    color: white;
+  }
+
+  #footer_logo {
+    transform: translateY(25%);
+    height: 50px;
+    width: 50px;
+  }
+}
+
+@media screen and (max-width: 1440px) and (min-width: 1025px) {
+  * {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    box-sizing: border-box;
+  }
+
+  .header {
+    background-color: black;
+    height: 45px;
+    width: 144vw;
+    max-width: inherit;
+    position: fixed;
+    z-index: 99999;
+  }
+
+  .header ul {
+  }
+
+  .header ul li {
+    display: inline-flex;
+  }
+
+  .header ul li a {
+    color: white;
+    text-decoration: none;
+    margin-right: 1.4vw;
+    margin-left: 1.4vw;
+    font-size: 1vw;
+    font-family: "oswald";
+    margin-top: 10px;
+    padding-left: 4.3vw;
+    padding-right: 4.3vw;
+    text-align: center;
+  }
+
+  #header_logo {
+    position: absolute;
+    height: 43px;
+    width: 43px;
+    margin-left: -20px;
+    margin-bottom: 5px;
+    margin-top: -3vh;
+  }
+
+  .header ul li a:hover {
+    background-color: white;
+    color: black;
+    border-radius: 10px;
+  }
+
+  #top_button {
+    font-size: 25px;
+    font-family: "oswald", sans-serif;
+    text-decoration: none;
+    position: absolute;
+    color: black;
+    margin-left: 45%;
+    background-color: yellow;
+    border-radius: 15%;
+    padding-right: 5px;
+    padding-left: 5px;
+    margin-top: 25px;
+  }
+
+  * {
+    text-decoration: none;
+  }
+
+  #content {
+    padding-top: 50px;
+  }
+
+  #content h1 {
+    font-family: oswald;
+  }
+
+  #starting_content_title {
+    margin-left: 50px;
+    margin-top: 50px;
+    border-bottom: 1px solid black;
+    width: 18%;
+  }
+
+  #starting_content img {
+    height: auto;
+    width: 90%;
+    margin-left: 4%;
+    margin-top: 50px;
+  }
+
+  #popular_opinion {
+    margin-top: 50px;
+  }
+
+  #popular_opinion_title {
+    margin-left: 50px;
+    border-right: 1px solid black;
+    width: 22%;
+    height: 100px;
+  }
+
+  #popular_opinion_text {
+    margin-left: 65px;
+    margin-top: 50px;
+    text-indent: 45px;
+  }
+
+  #content p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+
+  #popular_opinion_img {
+    float: right;
+    margin-top: -50px;
+    margin-right: 250px;
+    height: auto;
+    width: 10%;
+  }
+
+  #possible_theories {
+    margin-top: 90px;
+  }
+
+  #possible_theories_title {
+    margin-left: 50px;
+  }
+
+  #richard_title {
+    margin-left: 50px;
+    margin-top: 50px;
+  }
+
+  #richard_text {
+    text-indent: 45px;
+    margin-left: 50px;
+    margin-top: 50px;
+  }
+
+  #survive_title {
+    margin-left: 50px;
+    margin-top: 50px;
+  }
+
+  #survive_text {
+    margin-left: 50px;
+    text-indent: 45px;
+    margin-top: 50px;
+    margin-right: 500px;
+  }
+
+  #survive img {
+    border-radius: 10px;
+    float: right;
+    height: auto;
+    width: 25%;
+    margin-right: 100px;
+    margin-top: -200px;
+  }
+
+  #plausible_title {
+    margin-left: 50px;
+    margin-top: 50px;
+  }
+
+  #plausible_text {
+    margin-left: 65px;
+    text-indent: 45px;
+    margin-top: 50px;
+    margin-right: 400px;
+  }
+
+  #plausible img {
+    height: auto;
+    width: 15%;
+    float: right;
+    margin-top: -250px;
+    margin-right: 110px;
+  }
+
+  .footer {
+    background-color: black;
+    margin-top: 10vh;
+    height: 100px;
+  }
+
+  .footer ul {
+    text-align: center;
+  }
+
+  .footer ul li {
+    display: inline-flex;
+    color: white;
+    justify-content: space-between;
+    padding-left: 42px;
+    padding-right: 42px;
+    font-family: cursive;
+    font-size: 12px;
+    margin-bottom: 20px;
+  }
+
+  .footer ul li a {
+    text-decoration: none;
+    color: white;
+  }
+
+  #footer_logo {
+    transform: translateY(25%);
+    height: 50px;
+    width: 50px;
+  }
+}
+
+@media screen and (min-width: 1441px) {
+  * {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    box-sizing: border-box;
+  }
+
+  .header {
+    background-color: black;
+    height: 45px;
+    width: 100vw;
+    position: fixed;
+    z-index: 99999;
+  }
+
+  .header ul {
+  }
+
+  .header ul li {
+    display: inline-flex;
+  }
+
+  .header ul li a {
+    color: white;
+    text-decoration: none;
+    margin-right: 1.4vw;
+    margin-left: 1.4vw;
+    font-size: 1vw;
+    font-family: "oswald";
+    margin-top: 10px;
+    padding-left: 4vw;
+    padding-right: 4vw;
+    text-align: center;
+    position: relative;
+  }
+
+  #header_logo {
+    position: absolute;
+    height: 43px;
+    width: 43px;
+    margin-left: -20px;
+    margin-bottom: 5px;
+    margin-top: -3vh;
+  }
+
+  .header ul li a:hover {
+    background-color: white;
+    color: black;
+    border-radius: 10px;
+  }
+
+  #top_button a {
+    font-size: 25px;
+    font-family: "oswald", sans-serif;
+    text-decoration: none;
+    position: absolute;
+    color: black;
+    margin-left: 45%;
+    background-color: yellow;
+    border-radius: 15%;
+    padding-right: 5px;
+    padding-left: 5px;
+    margin-top: 25px;
+  }
+
+  * {
+    text-decoration: none;
+  }
+
+  #content {
+    padding-top: 50px;
+  }
+
+  #content h1 {
+    font-family: oswald;
+  }
+
+  #starting_content_title {
+    margin-left: 50px;
+    margin-top: 50px;
+    border-bottom: 1px solid black;
+    width: 18%;
+  }
+
+  #starting_content img {
+    height: auto;
+    width: 90%;
+    margin-left: 4%;
+    margin-top: 50px;
+  }
+
+  #popular_opinion {
+    margin-top: 50px;
+  }
+
+  #popular_opinion_title {
+    margin-left: 50px;
+    border-right: 1px solid black;
+    width: 22%;
+    height: 100px;
+  }
+
+  #popular_opinion_text {
+    margin-left: 65px;
+    margin-top: 50px;
+    text-indent: 45px;
+  }
+
+  #content p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+
+  #popular_opinion_img {
+    float: right;
+    margin-top: -50px;
+    margin-right: 250px;
+    height: auto;
+    width: 10%;
+  }
+
+  #possible_theories {
+    margin-top: 90px;
+  }
+
+  #possible_theories_title {
+    margin-left: 50px;
+  }
+
+  #richard_title {
+    margin-left: 50px;
+    margin-top: 50px;
+  }
+
+  #richard_text {
+    text-indent: 45px;
+    margin-left: 50px;
+    margin-top: 50px;
+  }
+
+  #survive_title {
+    margin-left: 50px;
+    margin-top: 50px;
+  }
+
+  #survive_text {
+    margin-left: 50px;
+    text-indent: 45px;
+    margin-top: 50px;
+    margin-right: 700px;
+  }
+
+  #survive img {
+    border-radius: 10px;
+    float: right;
+    height: auto;
+    width: 25%;
+    margin-right: 120px;
+    margin-top: -200px;
+  }
+
+  #plausible_title {
+    margin-left: 50px;
+    margin-top: 50px;
+  }
+
+  #plausible_text {
+    margin-left: 65px;
+    text-indent: 45px;
+    margin-top: 50px;
+    margin-right: 800px;
+  }
+
+  #plausible img {
+    height: auto;
+    width: 8%;
+    float: right;
+    margin-top: -170px;
+    margin-right: 310px;
+  }
+
+  .footer {
+    background-color: black;
+    margin-top: 10vh;
+    height: 100px;
+  }
+
+  .footer ul {
+    text-align: center;
+  }
+
+  .footer ul li {
+    display: inline-flex;
+    color: white;
+    justify-content: space-between;
+    padding-left: 2vw;
+    padding-right: 2vw;
+    font-family: cursive;
+    font-size: 12px;
+    margin-bottom: 20px;
+  }
+
+  .footer ul li a {
+    text-decoration: none;
+    color: white;
+  }
+
+  #footer_logo {
+    transform: translateY(25%);
+    height: 50px;
+    width: 50px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  * {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    box-sizing: border-box;
+  }
+
+  .header {
+    background-color: black;
+    height: 45px;
+    width: 1024px;
+    max-width: inherit;
+    position: fixed;
+  }
+
+  .header ul {
+  }
+
+  .header ul li {
+    display: inline-flex;
+  }
+
+  .header ul li a {
+    color: white;
+    text-decoration: none;
+    margin-right: 2.4vw;
+    margin-left: 2.4vw;
+    font-size: 17px;
+    font-family: "oswald";
+    margin-top: 10px;
+    text-align: center;
+  }
+
+  #header_logo {
+    position: absolute;
+    height: 43px;
+    width: 43px;
+    margin-left: -20px;
+    bottom: 1px;
+  }
+
+  .header ul li a:hover {
+    background-color: white;
+    color: black;
+    border-radius: 10px;
+  }
+
+  .footer {
+    background-color: black;
+    margin-top: 100px;
+    height: 80px;
+  }
+
+  .footer ul {
+    text-align: center;
+  }
+
+  .footer ul li {
+    display: inline-flex;
+    color: white;
+    justify-content: space-between;
+    font-family: cursive;
+    font-size: 1vw;
+    margin-bottom: 20px;
+  }
+
+  .footer ul li a {
+    text-decoration: none;
+    color: white;
+  }
+
+  #footer_logo {
+    transform: translateY(25%);
+    height: 50px;
+    width: 50px;
+  }
+
+  #top_button {
+    width: 14.5%;
+    margin-top: 5vw;
+  }
+
+  #top_button a {
+    color: black;
+    font-size: 3vw;
+  }
+
+  #technology p {
+    margin-right: -20vw;
+  }
+}
